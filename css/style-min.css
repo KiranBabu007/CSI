@@ -1,0 +1,164 @@
+.heading{
+  font-family: Poppins;
+  letter-spacing:1.5px;
+  font-weight:bold;
+  font-size:60px;
+  white-space: wrap;
+  padding: 10px 0;
+}
+
+.subheading{
+  font-family:Poppins;
+  font-weight:bold;
+  font-size: 30px;
+  line-height: 30px;
+}
+.lnr {
+    font-family: Linearicons-Free;
+    speak: none;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color:#f8b526;
+    background:#fff3db;
+    border-radius: 50%;
+    padding: 25px;
+}
+.align-text{
+  text-align: left;
+}
+@media screen and (max-width: 728px) {
+  .align-text{
+    text-align: center;
+  }
+
+button .Download-Button{
+  background-color: red;
+  color: #ffffff;
+  padding: 20px 10px;
+}
+}
+.Logo{
+  height: 70px;
+  width: auto;
+}
+    .ftco-navbar-light.scrolled .Logo{
+      height: 60px;
+      width: auto;
+    }
+@media screen and (max-width: 728px) {
+  .Logo{
+    height: 60px;
+    width: auto;
+  }
+}
+
+.activities-img{
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+.Support-Mozilla-head{
+  font-size: 32px;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 36px;
+  font-family:Open Sans;
+  color: #333333;
+  letter-spacing:1px;
+  text-align: left;
+}
+.Support-Mozilla-subhead{
+  margin-top: 10px;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  font-family:Open Sans;
+  color: #333333;
+}
+
+.wrapper {
+    text-align:left;
+}
+
+.Download-Button-Style{
+  background:#0081f2;
+  color:white;
+  font-family:Poppins;
+  border:none;
+  border-radius:50px;
+  letter-spacing: 1px;
+  padding:10px 20px;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.1),
+          0 5px 15px 0 rgba(0,0,0,0.07);
+}
+@media screen and (max-width: 728px) {
+  .Support-Mozilla-head{
+  text-align: center;
+  }
+  .Support-Mozilla-subhead{
+    text-align: center;
+  }
+  .wrapper{
+    text-align: center;
+  }
+
+}
+
+
+.footer-brand-header{
+  color:#ffffff;
+  font-size:18px;
+  line-height:24px;
+  font-weight: bold;
+}
+@media screen and (max-width: 728px) {
+  .footer-brand-header{
+display: none;
+}
+}
+.footer-brand-list{
+  color:#ffffff;
+  font-size:16px;
+  font-weight:400;
+  line-height:24px;
+}
+.footer-contact-mail{
+  color:white;
+}
+
+.footer-contact{
+  color:white;
+}
+
+.copyright{
+  font-family:Poppins;
+  font-size:14px;
+  letter-spacing:1.5px;
+  color: #ffffff;
+}
+
+.zoom{
+    transition: transform .5s;
+}
+.zoom:hover {
+  transform: scale(1.05);}
+
+.infinite-zoom{
+  animation-duration: 0.4s;
+animation-name: changewidth;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+@keyframes changewidth {
+  0% {
+      transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+  }
+  100% {
+      transform: scale(1.07);
+      -webkit-transform: scale(1.07);
+  }
+}
