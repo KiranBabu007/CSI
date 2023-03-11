@@ -7,6 +7,10 @@ body {
   font-size: 16px;
   background: #fff;
   color: #859196; }
+  
+h1.heading{
+  color: #ffffff;
+}
 
 a {
   -webkit-transition: .3s all ease;
