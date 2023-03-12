@@ -634,3 +634,14 @@ textarea {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    ul {
+      margin: 0;
+      color: #000  }
+    ul.dashed {
+      list-style-type: none; }
+    ul.dashed > li {
+      text-indent: -5px; }
+    ul.dashed > li:before {
+      content: '\2014';
+      text-indent: -5px;   }
