@@ -78,7 +78,7 @@ button:hover{
       position: relative; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
     font-family: Open Sans;
-    color: #999999;
+    color: #463db9;
     font-size: 16px;
     font-weight: bold;
     padding: 7px 20px;
@@ -145,7 +145,7 @@ button:hover{
    }
     @media screen and (max-width: 768px) {
       .ftco-navbar-light.scrolled .nav-link.active {
-        color: #F1A31D!important; }
+        color: #1d3df1!important; }
       .navbar-nav {
         background: none;
         padding-top: 24px !important;
@@ -188,7 +188,7 @@ button:hover{
       color: #999999 !important;
     letter-spacing: 1px;}
       .ftco-navbar-light.scrolled .nav-link.active {
-        color: #F1A31D!important; }
+        color: #1d3df1!important; }
     .ftco-navbar-light.scrolled.awake {
       margin-top: 0px;
       -webkit-transition: .3s all ease-out;
