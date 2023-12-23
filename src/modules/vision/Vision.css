@@ -1,9 +1,6 @@
-body {
-  background-color: #000;
-}
-
 .vis-main {
   margin-top: 2.5vh;
+  background-color: #000;
 }
 
 .vis-head {

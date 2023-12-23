@@ -1,8 +1,8 @@
-import React from "react";
+// import React from "react";
 import "./Vision.css";
-import vicon from "../assets/visionicon.png";
-import micon from "../assets/missionicon.png";
-import Card from "../Components/Card";
+import vicon from "../../assets/images/visionicon.png";
+import micon from "../../assets/images/missionicon.png";
+import Card from "../../Components/Card";
 
 const Vision = () => {
   return (
@@ -24,6 +24,6 @@ const Vision = () => {
       </div>
     </>
   );
-};
+}
 
-export default Vision;
+export default Vision
