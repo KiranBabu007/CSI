@@ -7,10 +7,19 @@ body {
 }
 
 .vis-head {
+  margin-top: 8vh;
   display: flex;
   justify-content: center;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 2.3rem;
   font-weight: 600;
+}
+
+.vis-section {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  gap: 11rem;
 }
