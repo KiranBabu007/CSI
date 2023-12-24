@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 import styles from "./nav.module.css";
-const Nav = () => {
+const NavBar = () => {
     return (
         <div>
             <div className={styles.navBar}>
@@ -26,4 +26,4 @@ const Nav = () => {
     )
 }
 
-export default Nav
+export default NavBar
