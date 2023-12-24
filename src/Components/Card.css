@@ -16,6 +16,7 @@
   font-size: 2rem;
   font-style: normal;
   font-weight: 600;
+  margin-top: 1vh;
 }
 
 .vis-icon {
@@ -27,8 +28,9 @@
 
 .vis-box-body {
   display: flex;
-  width: 80%;
+  text-align: center;
+  max-width: 50vh;
   color: #fff;
-  font-size: 18px;
+  font-size: 1rem;
   font-family: Roboto;
 }
