@@ -1,7 +1,7 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from './pages/Home/Home';
 import './index.css';
-import NavBar from "./Components/Navbar/NavBar";
+import NavBar from "./Components/NavBar/NavBar";
 
 function App() {
   const router = createBrowserRouter([
