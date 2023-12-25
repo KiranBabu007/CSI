@@ -9,7 +9,7 @@ const About = () => {
           <div className="About-section">
             <div className="About-img"></div>
             <div className="About-body">
-              <h2>About Us</h2>
+              <h2>About us</h2>
               <p>
                 Welcome to the Computer Society of India (CSI) chapter at St
                 Joseph's College of Engineering and Technology, Palai. We are a
@@ -26,7 +26,7 @@ const About = () => {
           </div>
           <div className="About-section">
             <div className="About-body">
-              <h2>What is CSI?</h2>
+              <h2>What is CSI ?</h2>
               <p>
                 The Computer Society of India (CSI) is the largest organization
                 of computer professionals in India. It was established on March
