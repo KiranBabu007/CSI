@@ -33,6 +33,7 @@
 
   .vis-section {
     flex-direction: column;
+    justify-content: center;
     height: 150vh;
     gap: 3rem;
   }
