@@ -49,3 +49,31 @@
   font-style: normal;
   font-weight: 600;
 }
+
+@media (max-width: 768px) {
+  .About {
+    height: auto;
+    padding: 20px;
+  }
+  .About-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15vh;
+    margin: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .About {
+    height: auto;
+    padding: 20px;
+  }
+  .About-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15vh;
+    margin: 20px;
+  }
+}
