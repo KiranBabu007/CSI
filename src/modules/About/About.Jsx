@@ -31,7 +31,9 @@ const About = () => {
       <div className="About">
         <div className="About-main">
           <div className="About-section hidden">
-            <div className="About-img"></div>
+            <div className="About-img">
+              <img src="" alt="" />
+            </div>
             <div className="About-body">
               <h2>About us</h2>
               <p>
@@ -65,7 +67,9 @@ const About = () => {
                 of the computing industry in India.
               </p>
             </div>
-            <div className="About-img"></div>
+            <div className="About-img">
+              <img src="" alt="" />
+            </div>
           </div>
         </div>
       </div>
