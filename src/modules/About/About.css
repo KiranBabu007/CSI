@@ -53,6 +53,7 @@
 @media (max-width: 768px) {
   .about {
     height: auto;
+    width: auto;
     padding: 20px;
   }
   .aboutSection {
