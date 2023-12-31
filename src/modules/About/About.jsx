@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React, { useEffect } from "react";
-import "./about.css";
+import "./About.css";
 
 const About = () => {
   useEffect(() => {
