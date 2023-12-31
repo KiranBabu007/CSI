@@ -1,7 +1,7 @@
 .vis-main {
   margin-top: 2.5vh;
   background-color: #000;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .vis-head {
@@ -34,6 +34,7 @@
   .vis-section {
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 150vh;
     gap: 3rem;
   }
