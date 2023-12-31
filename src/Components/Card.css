@@ -23,6 +23,9 @@
   margin-top: 6vh;
   width: 35%;
   height: 30%;
+  display: flex;
+  justify-content: center;
+  
   flex-shrink: 0;
 }
 
