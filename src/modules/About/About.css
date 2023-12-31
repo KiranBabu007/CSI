@@ -1,7 +1,6 @@
 .about {
   background: #fff;
-  height: 130vh;
-  padding: 50px;
+  padding: 5% 5%;
 }
 .aboutMain {
   padding: 12vh;
@@ -53,8 +52,7 @@
 @media (max-width: 768px) {
   .about {
     height: auto;
-    width: auto;
-    padding: 20px;
+    padding: 5%;
   }
   .aboutSection {
     display: flex;
@@ -62,6 +60,10 @@
     justify-content: center;
     gap: 15vh;
     margin: 20px;
+  }
+  .aboutImg {
+    width: 90%;
+    height: 20vh;
   }
 
   .aboutBody {
@@ -72,13 +74,24 @@
 @media (max-width: 480px) {
   .about {
     height: auto;
-    padding: 20px;
+    padding: 5%;
+  }
+  .aboutMain {
+    padding: 0;
+    gap: 10px;
+  }
+  .aboutImg {
+    width: 90%;
+    height: 20vh;
+  }
+  .aboutBody {
+    width: 90%;
   }
   .aboutSection {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 15vh;
+    gap: 30px;
   }
 }
