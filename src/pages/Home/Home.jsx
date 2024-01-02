@@ -1,5 +1,5 @@
 import About from "../../modules/About/About";
-import Contact from "../../modules/contact/contact";
+import Contact from "../../modules/Contact/Contact";
 import Hero from "../../modules/hero/Hero";
 import Vision from "../../modules/vision/Vision";
 
