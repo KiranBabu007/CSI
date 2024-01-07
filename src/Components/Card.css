@@ -59,10 +59,16 @@
     font-size: 1.8rem;
   }
   .vis-box-body {
-    font-size: 0.8rem;
+    font-size: 1rem;
+  }
+  .vis-box-icon {
+    margin-top: 0;
+    width: 30%;
+    height: 27%;
   }
   .vis-box {
     height: auto;
     width: auto;
+    padding: 20px;
   }
 }
