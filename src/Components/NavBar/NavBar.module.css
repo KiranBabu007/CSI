@@ -1,7 +1,3 @@
-Link {
-  text-decoration: none;
-}
-
 .navBar {
   background: linear-gradient(180deg, #000 0%, rgba(217, 217, 217, 0) 90%);
   display: flex;
@@ -147,6 +143,9 @@ Link {
     display: flex;
     /* z-index: 100; */
   }
+}
+.link a {
+  text-decoration: none;
 }
 
 /* 
