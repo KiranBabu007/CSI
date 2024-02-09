@@ -1,3 +1,44 @@
 body {
   background: #ffffff;
 }
+
+.Team-Nav {
+  background: black;
+  width: 100%;
+  height: 110px;
+  display: block;
+}
+
+.Team-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .Team-Nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+  }
+}
+
+.Team-header-box {
+  display: flex;
+  height: 100px;
+  width: 80%;
+}
+
+.Team-subhead {
+  margin-top: 30vh;
+  display: flex;
+  color: black;
+}
+
+.Team-subhead-box {
+  padding: 5px;
+  height: 12px;
+  border-radius: 13px;
+  border: 1px solid black;
+}
