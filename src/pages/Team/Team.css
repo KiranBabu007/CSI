@@ -1,5 +1,6 @@
 body {
   background: #ffffff;
+  margin: 0;
 }
 
 .Team-Nav {
@@ -16,7 +17,6 @@ body {
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  margin: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -99,5 +99,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .Team-Nav {
+    height: 60px;
   }
 }
