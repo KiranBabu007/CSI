@@ -93,3 +93,11 @@ body {
   width: 80%;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 768px) {
+  .Team-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

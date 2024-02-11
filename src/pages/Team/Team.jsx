@@ -58,6 +58,7 @@ const Team = () => {
             <TeamCard src="" name="Dummy Name" position="Design Lead" />
           </div>
         </div>
+        
       </div>
     </>
   );
