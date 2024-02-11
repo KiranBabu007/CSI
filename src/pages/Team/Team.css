@@ -16,6 +16,7 @@ body {
   flex-direction: column;
   align-items: center;
   height: 100vh;
+  margin: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -56,34 +57,39 @@ body {
 .Team-head {
   width: 70%;
   font-family: Montserrat;
-  font-size: 61px;
-  font-weight: 600;
+  font-size: 55px;
+  font-weight: 500;
   color: black;
+  margin-bottom: 3vh;
 }
 
-.Core-team {
+.Core-team,
+.Event-team {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  margin-top: 8vh;
+  margin-top: 2vh;
   width: 100%;
   height: auto;
-  margin-bottom: 10vh;
+  margin-bottom: 2vh;
 }
 
-.Core-team-head {
+.Team-title {
   font-family: Montserrat;
-  font-size: 42px;
+  font-size: 40px;
   font-weight: 500;
   color: black;
+  margin-bottom: 3vh;
+  height: auto;
 }
 
-.Core-cards {
+.Team-cards {
   display: flex;
-  height: 50vh;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  height: auto;
   width: 80%;
-  gap: 20px;
   flex-wrap: wrap;
-  justify-content: center;
 }

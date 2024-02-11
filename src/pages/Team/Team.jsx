@@ -20,15 +20,42 @@ const Team = () => {
         </div>
 
         <div className="Core-team">
-          <div className="Core-team-head">
+          <div className="Team-title">
             <p>CORE TEAM</p>
           </div>
-          <div className="Core-cards">
+          <div className="Team-cards">
             <TeamCard
-              src="anandhu"
+              src={anandhu}
               name="Anandhu Unnikrishnan"
               position="Design Lead"
             />
+            <TeamCard src="" name="Dummy Name" position="Design Lead" />
+            <TeamCard src="" name="Dummy Name" position="Design Lead" />
+            <TeamCard src="" name="Dummy Name" position="Design Lead" />
+          </div>
+        </div>
+
+        <div className="Event-team">
+          <div className="Team-title">
+            <p>EVENT TEAM</p>
+          </div>
+          <div className="Team-cards">
+            <TeamCard
+              src={anandhu}
+              name="Anandhu Unnikrishnan"
+              position="Design Lead"
+            />
+            <TeamCard src="" name="Dummy Name" position="Design Lead" />
+            <TeamCard src="" name="Dummy Name" position="Design Lead" />
+            <TeamCard src="" name="Dummy Name" position="Design Lead" />
+            <TeamCard
+              src={anandhu}
+              name="Anandhu Unnikrishnan"
+              position="Design Lead"
+            />
+            <TeamCard src="" name="Dummy Name" position="Design Lead" />
+            <TeamCard src="" name="Dummy Name" position="Design Lead" />
+            <TeamCard src="" name="Dummy Name" position="Design Lead" />
           </div>
         </div>
       </div>
