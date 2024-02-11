@@ -7,12 +7,15 @@ body {
   width: 100%;
   height: 110px;
   display: block;
+  position: fixed;
 }
 
 .Team-main {
+  padding-top: 110px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  height: 100vh;
 }
 
 @media screen and (max-width: 768px) {
@@ -26,19 +29,61 @@ body {
 
 .Team-header-box {
   display: flex;
-  height: 100px;
+  flex-direction: column;
   width: 80%;
 }
 
 .Team-subhead {
-  margin-top: 30vh;
+  margin-top: 12vh;
   display: flex;
+  gap: 3px;
   color: black;
 }
 
 .Team-subhead-box {
-  padding: 5px;
-  height: 12px;
+  padding: 2px;
+  height: 14px;
+  padding-left: 8px;
+  padding-right: 8px;
   border-radius: 13px;
   border: 1px solid black;
+  font-family: Montserrat;
+  font-size: 11px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.Team-head {
+  width: 70%;
+  font-family: Montserrat;
+  font-size: 61px;
+  font-weight: 600;
+  color: black;
+}
+
+.Core-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 8vh;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10vh;
+}
+
+.Core-team-head {
+  font-family: Montserrat;
+  font-size: 42px;
+  font-weight: 500;
+  color: black;
+}
+
+.Core-cards {
+  display: flex;
+  height: 50vh;
+  width: 80%;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
