@@ -97,6 +97,9 @@ body {
 .Membership-team {
   padding-bottom: 22px;
 }
+.Membership-team .Team-cards {
+  gap:39px;
+}
 @media screen and (max-width: 768px) {
   .Team-cards {
     display: flex;
