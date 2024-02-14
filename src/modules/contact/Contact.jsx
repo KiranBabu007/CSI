@@ -3,7 +3,7 @@ import styles from "./contact.module.css";
 
 const Contact = () => {
   return (
-    <div className={styles.contactSection}>
+    <div className={styles.contactSection} id="contact">
       <div className={styles.map}>
         <iframe
           width="100%"

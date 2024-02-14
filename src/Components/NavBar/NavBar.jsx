@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import styles from "./NavBar.module.css";
 import { Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const NavBar = () => {
   const [sideNavDisplay, setSideNavDisplay] = useState(
@@ -49,19 +50,30 @@ const NavBar = () => {
           className={styles.menuSection}
           style={{ display: `${sideNavDisplay}` }}
         >
-          <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>
+          <HashLink
+            smooth
+            to="/#"
+            style={{ color: "inherit", textDecoration: "none" }}
+          >
             Home
-          </Link>
+          </HashLink>
           <Link to="/team" style={{ color: "inherit", textDecoration: "none" }}>
             Team
           </Link>
-          <Link
+          <HashLink
+            smooth
             to="#about"
             style={{ color: "inherit", textDecoration: "none" }}
           >
             About
-          </Link>
-          <p>Contact</p>
+          </HashLink>
+          <HashLink
+            smooth
+            to="#contact"
+            style={{ color: "inherit", textDecoration: "none" }}
+          >
+            Contact
+          </HashLink>
         </div>
         {/* Hamburger Menu */}
         <div className={styles.navButton} onClick={toggleSideNavBar}>

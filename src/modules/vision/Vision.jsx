@@ -7,7 +7,7 @@ import Card from "../../Components/Card";
 const Vision = () => {
   return (
     <>
-      <div className="vis-main">
+      <div className="vis-main" id="vision">
         <div className="vis-head">Our Objectives</div>
         <div className="vis-section hidden">
           <Card
