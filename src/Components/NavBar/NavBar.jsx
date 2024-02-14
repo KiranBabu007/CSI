@@ -52,11 +52,15 @@ const NavBar = () => {
           <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>
             Home
           </Link>
-          <p>About</p>
           <Link to="/team" style={{ color: "inherit", textDecoration: "none" }}>
             Team
           </Link>
-          <p>Vision</p>
+          <Link
+            to="#about"
+            style={{ color: "inherit", textDecoration: "none" }}
+          >
+            About
+          </Link>
           <p>Contact</p>
         </div>
         {/* Hamburger Menu */}

@@ -30,7 +30,7 @@ const About = () => {
   }, []);
 
   return (
-    <>
+    <div id="about">
       <div className="about">
         <div className="aboutMain">
           <div className="aboutSection hidden">
@@ -76,7 +76,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
