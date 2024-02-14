@@ -134,10 +134,10 @@ const Team = () => {
           <div className="Team-cards">
             <TeamCard src={annmaria} name="Ann Maria Sabu" position="Content Lead"/>
             <TeamCard src={sanjid} name="Sanjid S" position="Content Co-Lead"/>
-            <TeamCard src={siya} name="Siya Varghese" position="Content Writier"/>
-            <TeamCard src={aavani} name="Aavani Shaj" position="Content Writier"/>
-            <TeamCard src={juna} name="Juna Teres Martin" position="Content Writier"/>
-            <TeamCard src={malavika} name="Malavika Anilkumar" position="Content Writier"/>
+            <TeamCard src={siya} name="Siya Varghese" position="Content Writer"/>
+            <TeamCard src={aavani} name="Aavani Shaj" position="Content Writer"/>
+            <TeamCard src={juna} name="Juna Teres Martin" position="Content Writer"/>
+            <TeamCard src={malavika} name="Malavika Anilkumar" position="Content Writer"/>
           </div>
         </div>
         <div className="Membership-team">

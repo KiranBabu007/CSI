@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React, { useEffect } from "react";
 import "./About.css";
+import group from "../../assets/images/group.jpeg";
 
 const About = () => {
   useEffect(() => {
@@ -33,7 +34,7 @@ const About = () => {
         <div className="aboutMain">
           <div className="aboutSection hidden">
             <div className="aboutImg">
-              <img src="" alt="" />
+              <img src={group} alt="" />
             </div>
             <div className="aboutBody">
               <h2>About us</h2>
