@@ -5,6 +5,12 @@ import bg3 from "../../assets/images/events3.png";
 import workshop from "../../assets/images/workshop.jpg";
 
 const Hero = () => {
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div className={styles.hero}>
       <div className={styles.main}>

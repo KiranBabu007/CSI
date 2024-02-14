@@ -58,7 +58,7 @@ const NavBar = () => {
             Team
           </Link>
           {/* <p>Gallery</p> */}
-          <p>Contact</p>
+          <p onClick={scrollToContact}>Contact</p>
         </div>
         {/* Hamburger Menu */}
         <div className={styles.navButton} onClick={toggleSideNavBar}>
