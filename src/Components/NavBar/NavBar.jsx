@@ -53,11 +53,11 @@ const NavBar = () => {
             Home
           </Link>
           <p>About</p>
-          <p>Events</p>
+          {/* <p>Events</p> */}
           <Link to="/team" style={{ color: "inherit", textDecoration: "none" }}>
             Team
           </Link>
-          <p>Gallery</p>
+          {/* <p>Gallery</p> */}
           <p>Contact</p>
         </div>
         {/* Hamburger Menu */}
