@@ -49,7 +49,9 @@ const NavBar = () => {
           className={styles.menuSection}
           style={{ display: `${sideNavDisplay}` }}
         >
-          <p>Home</p>
+          <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>
+            Home
+          </Link>
           <p>About</p>
           <p>Events</p>
           <Link to="/team" style={{ color: "inherit", textDecoration: "none" }}>
