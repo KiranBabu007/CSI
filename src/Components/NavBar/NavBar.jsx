@@ -62,14 +62,14 @@ const NavBar = () => {
           </Link>
           <HashLink
             smooth
-            to="#about"
+            to="/#about"
             style={{ color: "inherit", textDecoration: "none" }}
           >
             About
           </HashLink>
           <HashLink
             smooth
-            to="#contact"
+            to="/#contact"
             style={{ color: "inherit", textDecoration: "none" }}
           >
             Contact
