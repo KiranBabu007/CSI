@@ -53,12 +53,11 @@ const NavBar = () => {
             Home
           </Link>
           <p>About</p>
-          {/* <p>Events</p> */}
           <Link to="/team" style={{ color: "inherit", textDecoration: "none" }}>
             Team
           </Link>
-          {/* <p>Gallery</p> */}
-          <p onClick={scrollToContact}>Contact</p>
+          <p>Vision</p>
+          <p>Contact</p>
         </div>
         {/* Hamburger Menu */}
         <div className={styles.navButton} onClick={toggleSideNavBar}>
