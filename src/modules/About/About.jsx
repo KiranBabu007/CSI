@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import "./About.css";
 import group from "../../assets/images/group.jpeg";
+import workshop from "../../assets/images/workshop2.jpg";
 
 const About = () => {
   useEffect(() => {
@@ -70,7 +71,7 @@ const About = () => {
               </p>
             </div>
             <div className="aboutImg">
-              <img src="" alt="" />
+              <img src={workshop} alt="" />
             </div>
           </div>
         </div>
