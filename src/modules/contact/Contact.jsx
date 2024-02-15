@@ -38,11 +38,11 @@ const Contact = () => {
             csi@sjcetpalai.ac.in
           </a>
           <a href="tel:+"></a>
-          <a href="tel:+91123456789">
+          <a href="tel:+919961163649">
             <span>
               <i className="fi fi-sr-phone-call"></i>{" "}
             </span>
-            +91123456789
+            +919961163649
           </a>
         </div>
       </div>
