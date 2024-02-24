@@ -37,12 +37,11 @@ const Contact = () => {
             </span>
             csi@sjcetpalai.ac.in
           </a>
-          <a href="tel:+"></a>
           <a href="tel:+919961163649">
             <span>
               <i className="fi fi-sr-phone-call"></i>{" "}
             </span>
-            +919961163649
+            +91 9961163649
           </a>
         </div>
       </div>
